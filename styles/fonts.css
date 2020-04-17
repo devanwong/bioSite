@@ -1,0 +1,43 @@
+/*FONT-FAMILY*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+}
+h1 {
+	position: relative;
+	z-index: 1;
+	font-size: 3.815em;
+	text-align: center;
+	font-family: 'Merriweather', Times, serif;
+	color: #000000;
+	text-align: center;
+	opacity: 100%;
+	color:#000000;
+}
+h2 {
+	color:#ffb385;
+	font-size: 2.441em;
+	margin: 20px 0;
+}
+p {
+	font-family: 'Merriweather', Times, serif;
+	margin: 20px 0;
+}
+
+/*COLOR PALLETE*/
+a.mustard:hover {
+	background-color: #ffd31d;
+	padding:10px 20px;
+}
+a.beige:hover {
+	background-color: #fae7cb;
+	padding:10px 20px;
+}
+a.peach:hover {
+	background-color: #ffb385;
+	padding:10px 20px;
+}
+a.pink:hover {
+	background-color: #ff7272;
+	padding:10px 20px;
+}
+

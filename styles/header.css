@@ -1,0 +1,33 @@
+/*HEADER*/
+header {
+	position: relative;
+	z-index: 1;
+}
+
+nav {
+	background-color: rgba(255,255,255,.5);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav a {
+	color: #333333;
+	float: left;
+	font-size: 1em;
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+ol {
+	margin:0;
+}
+li {
+	display:inline;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+}
