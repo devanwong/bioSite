@@ -1,0 +1,24 @@
+/*IMAGES*/
+.valign-top {
+	vertical-align: top;
+}
+figure.crop {
+	display:inline-block;
+	margin: 0;
+	width: 33%;
+	height:250px;
+	overflow: hidden;
+}
+figcaption {
+	font-family: 'Merriweather', Times, serif;
+	text-align: center;
+}
+
+img {
+	object-fit: cover;
+	opacity: 80%;
+}
+
+img:hover {
+	opacity: 100%;
+}
