@@ -6,7 +6,7 @@ figure.crop {
 	display:inline-block;
 	margin: 0;
 	width: 33%;
-	height:250px;
+	max-height:250px;
 	overflow: hidden;
 }
 figcaption {

@@ -6,7 +6,6 @@ h1 {
 	position: relative;
 	z-index: 1;
 	font-size: 3.815em;
-	text-align: center;
 	font-family: 'Merriweather', Times, serif;
 	color: #000000;
 	text-align: center;
@@ -17,10 +16,13 @@ h2 {
 	color:#ffb385;
 	font-size: 2.441em;
 	margin: 20px 0;
+	text-align: left;
 }
 p {
 	font-family: 'Merriweather', Times, serif;
 	margin: 20px 0;
+	color:#000000;
+	text-align: left;
 }
 
 /*COLOR PALLETE*/
@@ -41,3 +43,11 @@ a.pink:hover {
 	padding:10px 20px;
 }
 
+.slideInUp.slideInUp2 {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s; 
+}
+.slideInUp.slideInUp3 {
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s; 
+}
