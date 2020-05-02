@@ -9,9 +9,6 @@
 		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
 
-		<script>
-
-		</script>
 	</head>
 	<body>
 			<header>
@@ -45,8 +42,7 @@
 						<h2 class="slideInUp">About Cassie:</h2>
 					</header>
 					<section>
-						<p class="slideInUp slideInUp2">Here is my sister's flashcard conversations starter-packet. What is this starter-packet? Basically, it’s what you would find out if you guys were going on a date! So here goes it.<br>
-						This is Cassie. She’s 32 -- about to hit 33 in June. Yes, this means she’s a Gemini. And if you are wondering if it’s true what they say about Gemini’s. Short answer, YES! She has many different faces. I say it in a good way -- sometimes. Cassie is an ER nurse. She loves to of course, help and save others, but she’s also in it for the critical thinking and the thrills. Which means she is an adrenaline junkie. Which means she loves roller coasters, which means she has an annual pass to Disneyland. Which makes her a Disney FANATIC. Cassie also loves to plan. She plans out a lot of things, BUT her favorite is to plan travel. She is a world traveler. She’s been all over the world, peep the images below go see where she has gone. Cassie also is weird and her hobby consists of, Orange Theory, going to Giants games, and also pin collecting. YES. SHE. COLLECTS. PINS.
+						<p class="slideInUp slideInUp2">This is Cassie. She’s 32 -- about to turn 33 in early-June. Yes, this means she’s a Gemini. If you are wondering if what they say about Gemini’s is true. The short answer is YES! She has many different faces. I say that in a good way -- sometimes. Cassie is an ER nurse. She loves to help save lives, but also I think she is in it for the thrills. She considers herself an adrenaline junkie. When she is not working, she enjoys planning trips, locally and internationally. One of her favorite places to go to is LA because of Disneyland. She has been a season pass holder for a few years now. She enjoys the food, the rides, and ofcourse the entertainment. I would consider her a Disney Fanatic. Cassie is also a world traveler. She plans about two trips a year that are outside America. This website is dedicated to all the traveling that she has done and all of her favorite things.
 						</p>
 						</section>
 				</div>
@@ -66,27 +62,43 @@
 					-->
 					<figure role="group">
 						<h2>A World Traveler</h2>
-						<figure class="crop">
-							<img src="images/cassie_16.jpg" width="100%" alt=""/>
+						<figure class="crop wrap">
+								<a href="https://www.peru.travel/en/attractions/machu-picchu" target="_blank">
+									<img src="images/cassie_16.jpg" width="100%" alt="Machu Picchu, Peru"/>
+										<p class="hover_description">Machu Picchu, Peru</p>
+								</a>
 						</figure>
-						<figure class="crop">
-							<img src="images/cassie_11.jpg" width="100%" alt=""/>
+						<figure class="crop wrap">
+							<a href="https://balicheapesttours.com/handara-gate.html" target="_blank">
+							<img src="images/cassie_11.jpg" width="100%" alt="Handara gate, Bali, Indonesia"/>
+							<p class="hover_description">Handara gate,<br>Bali, Indonesia</p>
+							</a>
 						</figure>
-						<figure class="crop">
-							<img src="images/cassie_8.jpg" width="100%" alt=""/>
+						<figure class="crop wrap">
+							<a href="https://www.gohawaii.com/islands/maui" target="_blank">
+								<img src="images/cassie_8.jpg" width="100%" alt="Maui, Hawaii"/>
+								<p class="hover_description">Maui, Hawaii</p>
+							</a>
 						</figure>
-						<figure class="crop">
-							<img src="images/cassie_24.jpg" width="100%" alt=""/>
+						<figure class="crop wrap">
+							<a href="https://www.travelchinaguide.com/attraction/beijing/heaven/" target="_blank">
+								<img src="images/cassie_24.jpg" width="100%" alt="Temple of Heaven, Beijing, China"/>
+								<p class="hover_description">Temple of Heaven,<br>Beijing, China</p>
+							</a>
 						</figure>
-						<figure class="crop">
-							<img src="images/cassie_25.jpg" width="100%" alt=""/>
+						<figure class="crop wrap">
+							<a href="https://www.lifestyleasia.com/sg/living/property-interiors/futuristic-city-singapores-skyline-changed-past-decade/" target="_blank">
+								<img src="images/cassie_25.jpg" width="100%" alt="Singapore Skyline, Singapore"/>
+								<p class="hover_description">Singapore Skyline, Singapore</p>
+							</a>
 						</figure>
-						<figure class="crop">
-							<img src="images/cassie_15.jpg" width="100%" alt=""/>
+						<figure class="crop wrap">
+							<a href="https://www.oregonhikers.org/field_guide/Ramona_Falls_Loop_Hike" target="_blank">
+								<img src="images/cassie_15.jpg" width="100%" alt="Ramona Falls, Portland, Oregon"/>
+								<p class="hover_description">Ramona Falls,<br>Portland, Oregon</p>
+							</a>
 						</figure>
-						<figcaption>
-						Top: Peru, Bali and Oahu | Bottom: Beijing, Singapore, Portland
-						</figcaption>
+
 					</figure>
 				</div>
 			</article>
@@ -102,42 +114,89 @@
 					<!-- figure out click to enlarge
 						will make responsive when the screen shrinks
 					-->
-					<figure role="group">
+					<figure role="group" class="row">
 						<h2>Giant's, Tattoo's ... and a Disney Fanatic:</h2>
 						<!-- GIANTS -->
-						<figure class="crop height-change">
-							<img src="images/cassie_3.jpg" width="100%" alt=""/>
+						<figure class="crop height-change column">
+							<img src="images/cassie_3.jpg" width="100%" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow"/>
 						</figure>
 						<figure class="crop height-change">
-							<img src="images/cassie_5.jpg" width="100%" alt=""/>
+							<img src="images/cassie_5.jpg" width="100%" alt="" onclick="openModal();currentSlide(2)" class="hover-shadow"/>
 						</figure>
 						<figure class="crop height-change">
-							<img src="images/cassie_33.jpg" width="100%" alt=""/>
+							<img src="images/cassie_33.jpg" width="100%" alt="" onclick="openModal();currentSlide(3)" class="hover-shadow"/>
 						</figure>
 						<!-- TATTOO -->
 						<figure class="crop height-change">
-							<img src="images/cassie_7.jpg" width="100%" alt=""/>
+							<img src="images/cassie_7.jpg" width="100%" alt="" onclick="openModal();currentSlide(4)" class="hover-shadow"/>
 						</figure>
 						<figure class="crop height-change">
-							<img src="images/cassie_20.jpg" width="100%" alt=""/>
+							<img src="images/cassie_20.jpg" width="100%" alt="" onclick="openModal();currentSlide(5)" class="hover-shadow"/>
 						</figure>
 						<figure class="crop height-change">
-							<img src="images/cassie_22.jpg" width="100%" alt=""/>
+							<img src="images/cassie_22.jpg" width="100%" alt="" onclick="openModal();currentSlide(6)" class="hover-shadow"/>
 						</figure>
 						<!-- DISNEYLAND -->
 						<figure class="crop height-change">
-							<img src="images/cassie_27.jpg" width="100%" alt=""/>
+							<img src="images/cassie_27.jpg" width="100%" alt="" onclick="openModal();currentSlide(7)" class="hover-shadow"/>
 						</figure>
 						<figure class="crop height-change">
-							<img src="images/cassie_28.jpg" width="100%" alt=""/>
+							<img src="images/cassie_28.jpg" width="100%" alt="" onclick="openModal();currentSlide(8)" class="hover-shadow"/>
 						</figure>
 						<figure class="crop height-change">
-							<img src="images/cassie_30.jpg" width="100%" alt=""/>
+							<img src="images/cassie_30.jpg" width="100%" alt="" onclick="openModal();currentSlide(9)" class="hover-shadow"/>
 						</figure>
-<!-- 						<figcaption>
-						Top: Peru, Bali and Oahu | Bottom:
-						</figcaption> -->
 					</figure>
+				<!-- The Modal/Lightbox -->
+				<div id="myModal" class="modal">
+				  <span class="close cursor" onclick="closeModal()">&times;</span>
+				  <div class="modal-content">
+				    <div class="mySlides">
+				      <div class="numbertext">1 / 9</div>
+				      <img src="images/cassie_3.jpg" style="width:80%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">2 / 9</div>
+				      <img src="images/cassie_5.jpg" style="width:80%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">3 / 9</div>
+				      <img src="images/cassie_33.jpg" style="width:80%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">4 / 9</div>
+				      <img src="images/cassie_7.jpg" style="width:80%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">5 / 9</div>
+				      <img src="images/cassie_20.jpg" style="width:80%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">6 / 9</div>
+				      <img src="images/cassie_22.jpg" style="width:80%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">7 / 9</div>
+				      <img src="images/cassie_27.jpg" style="width:80%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">8 / 9</div>
+				      <img src="images/cassie_28.jpg" style="width:80%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">9 / 9</div>
+				      <img src="images/cassie_30.jpg" style="width:80%">
+				    </div>
+				    <!-- Next/previous controls -->
+				    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				    <!-- Caption text -->
+				   <!--  <div class="caption-container">
+				      <p id="caption"></p>
+				    </div> -->
+				  </div>
+				</div>
+				<!-- /MODAL -->
 				</div>
 			</div>
 			<!-- /Fun  -->
@@ -148,10 +207,11 @@
 			<!-- Parallax -->
 			<footer>
 				<hr/ >
-				<p>Website created by: Dev the dev .. her sister</p>
+				<p>Website created by: Dev the dev .. her sister<br>
+					<a href="https://github.com/devanwong" target="_blank">Github Profile</a></p>
 			</footer>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>

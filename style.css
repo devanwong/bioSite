@@ -4,6 +4,7 @@
 @import "styles/images.css";
 @import "styles/footer.css";
 @import "styles/mediaquery.css";
+@import "styles/modalanimation.css";
 /*STANDARD HTML*/
 body {
 		color: #202040;
@@ -33,38 +34,3 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 	margin:0 auto;
 	width: 75%;
 }
-
-/*.relative {
-	position:relative;
-}
-.absolute {
-	position:absolute;
-}
-.fixed {
-	position:fixed;
-}
-.display-center {
-	z-index: 1;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	-ms-transform:translate(-50%,-50%);
-}
-
-.display-inline {
-	display:inline;
-}
-.display-block {
-	display:inline;
-}
-.width-50 {
-	background-color:white;
-	margin:0 auto;
-	width: 50%;
-}
-
-
-.white-bg {
-	background-color:#ffffff;
-	opacity: 1;
-}*/

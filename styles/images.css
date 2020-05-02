@@ -8,6 +8,8 @@ figure.crop {
 	width: 33%;
 	max-height:250px;
 	overflow: hidden;
+	position:relative;
+	opacity: 80%;
 }
 figcaption {
 	font-family: 'Merriweather', Times, serif;
@@ -16,9 +18,33 @@ figcaption {
 
 img {
 	object-fit: cover;
-	opacity: 80%;
 }
 
-img:hover {
+figure.crop:hover {
+	opacity: 100%;
+}
+
+p.hover_description {
+ position: absolute;
+ /*top: 0;*/
+ bottom: 0;
+ left: 0;
+ width:100%;
+ /*right: 0;*/
+ background: rgba(255, 255, 255, 0);
+ color: #fff;
+ visibility: hidden;
+ opacity: 0;
+ /*vertical-align: bottom;*/
+ text-align: center;
+ transition: opacity .2s, visibility .2s;
+ color:#ffffff;
+ text-shadow: 1px 1px #000000;
+ font-size: 0.833em;
+	line-height: 1.2em;
+}
+
+.wrap:hover .hover_description {
+	visibility: visible;
 	opacity: 100%;
 }
