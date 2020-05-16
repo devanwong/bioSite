@@ -1,17 +1,18 @@
 /*FONT-FAMILY*/
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 h1 {
 	position: relative;
 	z-index: 1;
-	font-size: 3.815em;
+	font-size: 5.16em;
+	/*line-height: 5.16em;*/
 	font-family: 'Merriweather', Times, serif;
 	color: #000000;
 	text-align: right;
-	/*opacity: 100%;*/
-	color:#ff7272;
-	margin-top: -15%;
+	color: #ff7272;
+	margin: 0;
+	margin-top: -5%;
 	margin-right: 10%;
 }
 h2 {
@@ -19,7 +20,17 @@ h2 {
 	font-size: 2.441em;
 	margin: 20px 0;
 	text-align: left;
+	text-transform: uppercase;
 	z-index: 1;
+}
+
+h3 {
+	color:#313639;
+	font-size: 2.074em;
+	letter-spacing: 1px;
+	text-align: right;
+	margin: 0;
+	margin-right: 10%;
 }
 p {
 	font-family: 'Merriweather', Times, serif;
@@ -34,19 +45,19 @@ p {
 /*COLOR PALLETE*/
 a.mustard:hover {
 	background-color: #ffd31d;
-	padding:10px 20px;
+	padding:20px 20px;
 }
 a.beige:hover {
 	background-color: #fae7cb;
-	padding:10px 20px;
+	padding:20px 20px;
 }
 a.peach:hover {
 	background-color: #ffb385;
-	padding:10px 20px;
+	padding:20px 20px;
 }
 a.pink:hover {
 	background-color: #ff7272;
-	padding:10px 20px;
+	padding:20px 20px;
 }
 
 .slideInUp.slideInUp2 {
